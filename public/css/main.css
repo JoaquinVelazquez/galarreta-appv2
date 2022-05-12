@@ -1,0 +1,587 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-transform: capitalize!important;
+}
+
+.rectangulo_rojo {
+    width: 30px;
+    height: 15px;
+    background: #ec3323;
+    padding: 0;
+    margin: 0;
+    border: 1px solid #d4d4d4;
+}
+
+.rectangulo_naranja {
+    width: 30px;
+    height: 15px;
+    background: #f7c143;
+    padding: 0;
+    margin: 0;
+    border: 1px solid #d4d4d4;
+}
+
+.rectangulo_amarillo {
+    width: 30px;
+    height: 15px;
+    background: #fffd55;
+    padding: 0;
+    margin: 0;
+    border: 1px solid #d4d4d4;
+}
+
+.rectangulo_verde_claro {
+    width: 30px;
+    height: 15px;
+    background: #a0cd63;
+    padding: 0;
+    margin: 0;
+    border: 1px solid #d4d4d4;
+}
+
+.rectangulo_verde_oscuro {
+    width: 30px;
+    height: 15px;
+    background: #4eac5b;
+    padding: 0;
+    margin: 0;
+    border: 1px solid #d4d4d4;
+}
+
+.selected {
+    width: 35px;
+    height: 17.5px;
+    border: 1px solid #000;
+}
+
+.disabled {
+    opacity: 50%;
+}
+
+.fa-check-circle {
+    color: green !important;
+    margin: 0 0 0 10px;
+    font-size: 25px;
+}
+
+.fa-minus-circle {
+    color: gray !important;
+    margin: 0 0 0 10px;
+    font-size: 25px;
+}
+
+.fa-times-circle {
+    color: red !important;
+    margin: 0 0 0 10px;
+    font-size: 25px;
+}
+
+.mensajes_img {
+    width: 60%;
+    margin-right: 10px;
+
+}
+
+.contenedor_imagen_mensaje {
+    position: relative;
+}
+
+.contenedor_imagen_despacho {
+    position: relative;
+}
+
+.mensajes_icon {
+    position: absolute;
+    bottom: 0;
+    right: 30px;
+}
+
+.despacho_icon {
+    position: absolute;
+    bottom: 0;
+    right: 30px;
+}
+
+.metricas_texto {
+    text-align: start;
+}
+
+.metricas_texto h4 {
+    margin: 0 0 10px 0;
+}
+
+.metricas_texto p {
+    margin: 0;
+}
+
+.icon-flipped {
+    transform: scaleX(-1);
+    -moz-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    -ms-transform: scaleX(-1);
+}
+
+.mshop {
+    color: #dc354b !important;
+    font-size: 20px;
+}
+
+.meli {
+    color: #ffe600 !important;
+    font-size: 20px;
+}
+
+.rendimiento {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.porcentajes {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.logos {
+    width: 45px;
+}
+
+.banderas {
+    width: 25px;
+    height: 25px;
+    margin-left: 10px;
+}
+
+.thumb-ranking {
+    height: 50px;
+    width: 50px;
+}
+
+.fondo-index {
+    background: rgb(255, 255, 255);
+    background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 42%, rgba(219, 219, 219, 1) 100%);
+}
+
+.bordes {
+    border: 1px solid #001d9a;
+}
+
+.contenedor-opcion {
+    margin-top: 50px;
+}
+
+.boton-submit {
+    margin-left: 10px;
+}
+
+.logo-inicio {
+    width: 80px;
+}
+
+.text-bold {
+    font-weight: bold;
+}
+
+.contenedor-general {
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    padding: 0;
+}
+
+.nav-inicio {
+    background-color: rgba(0, 0, 0, 0.596);
+    width: 100%;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.nav-inicio img {
+    filter: brightness(1000%);
+}
+
+.nav-inicio a {
+    color: white;
+}
+
+.nav-inicio a:hover {
+    color: rgb(224, 224, 224);
+}
+
+.back {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+}
+
+.div-center {
+    width: 400px;
+    height: 400px;
+    background-color: rgba(255, 255, 255, 0.356);
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    max-width: 100%;
+    max-height: 100%;
+    overflow: auto;
+    padding: 1em 2em;
+    display: table;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+div.content {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.content h3 {
+    text-align: center;
+}
+
+.btn-primary {
+    width: 100%;
+}
+
+.btn-link {
+    padding-left: 0;
+}
+
+.contenedor-registro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+}
+
+.registro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.instructivo {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.514);
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-right: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.instructivo h3 {
+    font-size: 50px;
+}
+
+.instructivo p {
+    font-size: 30px;
+}
+
+.instructivo p span {
+    font-weight: bold;
+}
+
+.btn-siguiente {
+    width: 200px;
+}
+
+.carta-registro {
+    margin-right: 20px;
+    background-color: rgba(255, 255, 255, 0.514) !important;
+}
+
+.carta-operar {
+    background-color: rgba(255, 255, 255, 0.514) !important;
+}
+
+.lista-paises {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.514);
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    max-width: 300px;
+}
+
+.lista-paises a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.lista-paises a:hover {
+    background-color: rgba(0, 0, 0, 0.356);
+}
+
+.lista-paises img {
+    width: 20px;
+}
+
+.contenedor-autenticacion {
+    background-color: rgba(255, 255, 255, 0.514);
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-right: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.contenedor-tarjetas-seller {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.carta-seller {
+    margin-bottom: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    display: flex;
+}
+
+.carta-seller:hover {
+    transition: ease-in-out .3s;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.carta-seller img {
+    width: 285px;
+    height: 285px;
+    margin: auto;
+}
+
+.card-body h5 {
+    font-size: 12px;
+    text-align: center;
+}
+
+.card-body a:first-child {
+    text-decoration: none;
+    color: black;
+}
+
+.link-1:hover,
+.link-2:hover,
+.link-3:hover,
+.link-4:hover {
+    cursor: pointer;
+    position: relative;
+}
+
+.link-1 span {
+    display: none;
+}
+.link-2 span {
+    display: none;
+}
+.link-3 span {
+    display: none;
+}
+.link-4 span {
+    display: none;
+}
+
+.link-1 {
+    background-color: #355070;
+}
+
+.link-2 {
+    background-color: #6D597A;
+}
+
+.link-3 {
+    background-color: #B56576;
+}
+
+.link-4 {
+    background-color: #E56B6F;
+}
+
+.link-5 {
+    background-color: #EAAC8B;
+}
+
+.link-1:hover span {
+    transition: ease-in-out .2s;
+    border: rgb(43, 43, 43) 1px solid;
+    border-radius: 10px;
+    text-align: center;
+    padding: 5px 0 5px 0;
+    display: block;
+    z-index: 100;
+    background: rgb(27, 27, 27);
+    color: white;
+    right: -50px;
+    width: 150px;
+    position: absolute;
+    top: 50px;
+    text-decoration: none
+}
+
+.link-2:hover span {
+    transition: ease-in-out .2s;
+    border: rgb(43, 43, 43) 1px solid;
+    border-radius: 10px;
+    text-align: center;
+    padding: 5px 0 5px 0;
+    display: block;
+    z-index: 100;
+    background: rgb(27, 27, 27);
+    color: white;
+    right: -65px;
+    width: 150px;
+    position: absolute;
+    top: 50px;
+    text-decoration: none
+}
+
+.link-3:hover span {
+    transition: ease-in-out .2s;
+    border: rgb(43, 43, 43) 1px solid;
+    border-radius: 10px;
+    text-align: center;
+    padding: 5px 0 5px 0;
+    display: block;
+    z-index: 100;
+    background: rgb(27, 27, 27);
+    color: white;
+    right: -65px;
+    width: 150px;
+    position: absolute;
+    top: 50px;
+    text-decoration: none
+}
+
+.link-4:hover span {
+    transition: ease-in-out .2s;
+    border: rgb(43, 43, 43) 1px solid;
+    border-radius: 10px;
+    text-align: center;
+    padding: 5px 0 5px 0;
+    display: block;
+    z-index: 100;
+    background: rgb(27, 27, 27);
+    color: white;
+    right: -65px;
+    width: 150px;
+    position: absolute;
+    top: 50px;
+    text-decoration: none
+}
+
+.card-body h5:hover {
+    color: rgb(66, 66, 66);
+}
+
+.lni-graph {
+    margin-right: 10px;
+    font-size: 25px;
+}
+
+.boton-dashboard {
+    text-align: center;
+    background-color: #1d3557;
+    border: none;
+}
+
+.boton-dashboard:hover {
+    text-align: center;
+    background-color: #152741;
+}
+
+.elementos-dashboard {
+    display: flex;
+    justify-content: space-between;
+}
+
+.elementos-dashboard i {
+    color: white;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.elementos-dashboard a {
+    margin-right: 5px;
+    margin-top: 5px;
+}
+
+.elementos-dashboard a:last-child {
+    margin-right: 0px;
+}
+
+.evolucion-canal-facturacion {
+    margin-bottom: 50px;
+}
+
+.grafico-marca-facturacion {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedor-botones-marca {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.boton-facturacion {
+    width: 200px;
+    margin-bottom: 20px;
+    margin-right: 50px;
+}
+
+.boton-unidades {
+    width: 200px;
+    margin-right: 50px;
+}
+
+.invisible {
+    display: none;
+}
+
+.logout a {
+    text-decoration: none;
+    color: gray;
+}
+
+.logout a:hover {
+    transition: .2s;
+    color: rgb(185, 185, 185);
+}
+
+.autenticacion {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.autenticacion hr {
+    margin-bottom: 20px;
+}
